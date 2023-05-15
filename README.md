@@ -1,5 +1,10 @@
-OpenConnect for Android
+OpenConnect for Android Tv
 =======================
+*********************************************************************
+This is a forked version of openconnect which is optimized for ANDROID TV
+Missing Add new Button bug has been solved in this version.
+*****************************************************************************888
+
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![Build Status](https://travis-ci.org/cernekee/ics-openconnect.svg?branch=master)](https://travis-ci.org/cernekee/ics-openconnect)
