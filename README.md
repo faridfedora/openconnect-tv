@@ -9,8 +9,10 @@ Missing Add new Button bug has been solved in this version.
 Download apk version from here: 
 https://github.com/faridfedora/openconnect-tv/blob/master/openconnect-tv.apk
 
-
-
+<Persian / فارسی>
+نسخه بهینه شده openconnect برای اندروید تی وی
+رفع خطای افزودن سرور جدید
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
