@@ -6,7 +6,7 @@ This is a forked version of openconnect which is optimized for ANDROID TV.
 Missing Add new Button bug has been solved in this version.
 *****************************************************************************
 
-
+Download apk version from here: 
 
 
 
