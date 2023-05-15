@@ -29,13 +29,19 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app"
         android:supportsRtl="true"
+
         android:name="app.openconnect.Application" >
         <activity
+            android:exported="true"
+
             android:name=".ConnectionEditorActivity" />
         <activity
+            android:exported="true"
+
             android:name=".FragActivity" />
         <activity
             android:name=".TokenImportActivity"
+
             android:exported="true" >
 
             <intent-filter>
@@ -84,10 +90,13 @@
             </intent-filter>
 
             </activity>
-        <activity android:name=".FileSelect" />
+        <activity android:name=".FileSelect"    android:exported="true"
+            />
         <activity
             android:name=".MainActivity"
             android:uiOptions="splitActionBarWhenNarrow"
+            android:exported="true"
+
             tools:ignore="ExportedActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -101,11 +110,14 @@
             android:name="org.acra.CrashReportDialog"
             android:theme="@android:style/Theme.Dialog"
             android:launchMode="singleInstance"
+            android:exported="true"
             android:excludeFromRecents="true"
             android:finishOnTaskLaunch="true" />
 
         <service
             android:name="app.openconnect.core.OpenVpnService"
+            android:exported="true"
+
             android:permission="android.permission.BIND_VPN_SERVICE" >
             <intent-filter>
                 <action android:name="android.net.VpnService" />
@@ -123,6 +135,8 @@
 
         <activity
             android:permission="app.openconnect.REMOTE_API"
+            android:exported="true"
+
             android:name=".api.GrantPermissionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -130,13 +144,16 @@
         </activity>
         <activity
             android:permission="app.openconnect.REMOTE_API"
+            android:exported="true"
+
             android:name=".api.ConfirmDialog" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
 
-        <receiver android:name=".OnBootReceiver" >
+        <receiver android:name=".OnBootReceiver"             android:exported="true"
+            >
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>

@@ -7,6 +7,17 @@
     android:paddingLeft="@dimen/stdpadding"
     android:paddingRight="@dimen/stdpadding" >
 
+	<TextView
+		android:id="@+id/add_vpn_textView"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="22sp"
+		android:gravity="center"
+		android:layout_gravity="start"
+
+
+		android:text="Add New"
+		android:drawableLeft="@android:drawable/ic_menu_add" />
     <ListView
         android:id="@android:id/list"
         android:layout_width="fill_parent"
@@ -18,6 +29,7 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+
 		android:visibility="gone" >
 
         <View

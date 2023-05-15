@@ -153,7 +153,18 @@ public class VPNProfileList extends ListFragment {
 
 		TextView newvpntext = (TextView) v.findViewById(R.id.add_new_vpn_hint);
 		newvpntext.setText(Html.fromHtml(getString(R.string.add_new_vpn_hint),new MiniImageGetter(),null));
-
+		v.findViewById(R.id.add_vpn_textView ).setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onAddProfileClicked("");
+			}
+		});
+		newvpntext.setOnClickListener(new OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				onAddProfileClicked("");
+			}
+		});
 		mArrayadapter = new VPNArrayAdapter(getActivity(), R.layout.vpn_list_item, R.id.vpn_item_title);
 		setListAdapter(mArrayadapter);
 

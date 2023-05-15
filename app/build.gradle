@@ -1,15 +1,16 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 19
+    compileSdkVersion 29
     defaultConfig {
         applicationId "app.openconnect"
         minSdkVersion 14
-        targetSdkVersion 19
+        targetSdkVersion 29
         versionCode 1119
         versionName "1.11"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
+
     signingConfigs {
         release {
             if (project.hasProperty('KEYSTORE_FILE')) {
@@ -31,6 +32,12 @@ android {
         disable 'MissingTranslation'
         disable 'ExtraTranslation'
     }
+//        sourceSets {
+//        main {
+//            jniLibs.srcDirs = ['/home/fedorico/-2-My-Projects/Android-Studio/openconnect/ics-openconnect/external/openconnect/java/src/org/infradead/libopenconnect/']
+//        }
+//    }
+
 }
 
 dependencies {
