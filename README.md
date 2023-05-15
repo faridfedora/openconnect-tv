@@ -1,9 +1,15 @@
 OpenConnect for Android Tv
 =======================
 *********************************************************************
-This is a forked version of openconnect which is optimized for ANDROID TV
+This is a forked version of openconnect which is optimized for ANDROID TV. 
+
 Missing Add new Button bug has been solved in this version.
-*****************************************************************************888
+*****************************************************************************
+
+
+
+
+
 
 
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
@@ -20,24 +26,6 @@ files.
 
 Changelog: see [doc/CHANGES.txt](doc/CHANGES.txt)
 
-To help out with translations, please visit
-[this project's page on Transifex](https://www.transifex.com/projects/p/ics-openconnect/).
-
-## Downloads and support
-
-Official releases are posted in the [XDA thread](http://forum.xda-developers.com/showthread.php?t=2616121) and on [Google Play](https://play.google.com/store/apps/details?id=app.openconnect).
-
-Binary APK files are also available at [F-Droid](https://f-droid.org/repository/browse/?fdid=app.openconnect).
-
-No registration is required to download from XDA or F-Droid.
-
-## Screenshots
-
-![screenshot-0](screenshots/screenshot-0.png)&nbsp;
-![screenshot-1](screenshots/screenshot-1.png)
-
-![screenshot-2](screenshots/screenshot-2.png)&nbsp;
-![screenshot-3](screenshots/screenshot-3.png)
 
 ## Building from source
 
