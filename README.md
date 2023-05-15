@@ -7,6 +7,7 @@ Missing Add new Button bug has been solved in this version.
 *****************************************************************************
 
 Download apk version from here: 
+https://github.com/faridfedora/openconnect-tv/blob/master/openconnect-tv.apk
 
 
 
